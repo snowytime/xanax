@@ -1,7 +1,7 @@
 {
     "name": "@snowytime/xanax",
     "version": "0.0.0",
-    "description": "",
+    "description": "A simple, lightweight, and fast nodejs xml parser/builder",
     "type": "module",
     "scripts": {
         "test": "mocha --exit",
