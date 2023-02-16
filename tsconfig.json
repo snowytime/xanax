@@ -12,7 +12,7 @@
         "typeRoots": ["node_modules/@types", "./typings"],
         "types": ["mocha", "chai", "node", "global"]
     },
-    "include": ["src/**/*.ts"],
+    "include": ["src/**/*"],
     "ts-node": {
         "esm": true,
         "files": true,
