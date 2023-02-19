@@ -1,7 +1,7 @@
 {
     "name": "@snowytime/xanax",
     "type": "module",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "A simple, lightweight, and fast nodejs xml parser/builder",
     "devDependencies": {
         "@snowytime/standards": "^1.0.4",
