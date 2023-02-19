@@ -1,16 +1,17 @@
 {
     "compilerOptions": {
-        "module": "CommonJS",
+        "module": "NodeNext",
         "target": "ESNext",
         "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
         "moduleResolution": "NodeNext",
         "esModuleInterop": true,
         "emitDeclarationOnly": true,
         "declaration": true,
-        "declarationDir": "dist/types",
+        "declarationMap": true,
+        "declarationDir": "dist",
         "resolveJsonModule": true,
-        "typeRoots": ["node_modules/@types", "./typings"],
-        "types": ["mocha", "chai", "node", "global"]
+        "jsx": "react",
+        "rootDir": "src"
     },
     "include": ["src/**/*"],
     "ts-node": {
