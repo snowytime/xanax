@@ -1,5 +1,20 @@
-src
 node_modules
-.vscode
-.ladle
+
+# configs / dev stuff
+.vibe
 .npmrc
+.env
+.eslintignore
+.eslintrc
+.eslintrc.cjs
+.eslintrc
+.gigitnore
+.npmignore
+.nvmrc
+.prettierrc.cjs
+.prettierrc
+
+# misc
+src
+.vscode
+build.json
